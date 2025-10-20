@@ -1,0 +1,56 @@
+# Nmap 7.98 scan initiated Mon Oct 20 11:39:27 2025 as: nmap -sn -oN quick_hosts.txt 192.168.0.0/24
+Nmap scan report for 192.168.0.1
+Host is up (0.0030s latency).
+MAC Address: 34:E8:94:B1:26:E5 (TP-Link Technologies)
+Nmap scan report for 192.168.0.101
+Host is up (0.0020s latency).
+MAC Address: 34:E8:94:B1:10:A8 (TP-Link Technologies)
+Nmap scan report for 192.168.0.103
+Host is up.
+MAC Address: 5A:3D:F3:DC:25:B8 (Unknown)
+Nmap scan report for 192.168.0.108
+Host is up (0.050s latency).
+MAC Address: 3E:D7:96:25:87:21 (Unknown)
+Nmap scan report for 192.168.0.105
+Host is up.
+# Nmap done at Mon Oct 20 11:39:32 2025 -- 256 IP addresses (5 hosts up) scanned in 4.89 seconds
+ 
+# Nmap 7.98 scan initiated Mon Oct 20 11:40:06 2025 as: nmap -sS -oN network_syn_scan.txt 192.168.0.0/24
+Nmap scan report for 192.168.0.1
+Host is up (0.0037s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+23/tcp   open  telnet
+80/tcp   open  http
+1900/tcp open  upnp
+MAC Address: 34:E8:94:B1:26:E5 (TP-Link Technologies)
+
+Nmap scan report for 192.168.0.101
+Host is up (0.0096s latency).
+All 1000 scanned ports on 192.168.0.101 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 34:E8:94:B1:10:A8 (TP-Link Technologies)
+
+Nmap scan report for 192.168.0.103
+Host is up (0.0057s latency).
+All 1000 scanned ports on 192.168.0.103 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 5A:3D:F3:DC:25:B8 (Unknown)
+
+Nmap scan report for 192.168.0.108
+Host is up (0.038s latency).
+All 1000 scanned ports on 192.168.0.108 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 3E:D7:96:25:87:21 (Unknown)
+
+Nmap scan report for 192.168.0.105
+Host is up (0.00059s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+
+# Nmap done at Mon Oct 20 11:40:15 2025 -- 256 IP addresses (5 hosts up) scanned in 8.61 seconds

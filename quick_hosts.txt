@@ -1,0 +1,16 @@
+# Nmap 7.98 scan initiated Mon Oct 20 11:39:27 2025 as: nmap -sn -oN quick_hosts.txt 192.168.0.0/24
+Nmap scan report for 192.168.0.1
+Host is up (0.0030s latency).
+MAC Address: 34:E8:94:B1:26:E5 (TP-Link Technologies)
+Nmap scan report for 192.168.0.101
+Host is up (0.0020s latency).
+MAC Address: 34:E8:94:B1:10:A8 (TP-Link Technologies)
+Nmap scan report for 192.168.0.103
+Host is up.
+MAC Address: 5A:3D:F3:DC:25:B8 (Unknown)
+Nmap scan report for 192.168.0.108
+Host is up (0.050s latency).
+MAC Address: 3E:D7:96:25:87:21 (Unknown)
+Nmap scan report for 192.168.0.105
+Host is up.
+# Nmap done at Mon Oct 20 11:39:32 2025 -- 256 IP addresses (5 hosts up) scanned in 4.89 seconds
