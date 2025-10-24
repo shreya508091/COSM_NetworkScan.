@@ -1,0 +1,32 @@
+Phishing Email Analysis Report
+
+Sample Email: phishing_email.txt
+Tool Used: MXToolbox Email Header Analyzer (online)
+
+1. Sender’s Email:
+support@paypai.com → spoofed domain (real PayPal uses paypal.com, not paypai.com).
+
+2. Subject Line:
+“Urgent: Verify Your Account Immediately!” — creates panic and urgency.
+
+3. Suspicious Links:
+http://paypai.com-securelogin-verification.com → fake domain pretending to be PayPal.
+
+4. Grammar and Spelling:
+Minor errors such as missing punctuation and awkward phrasing (“Click here to verify” without personalization).
+
+5. Threatening Language:
+“Immediately to avoid suspension” — scare tactic to trick users.
+
+6. Attachments:
+None found, but could potentially contain malware in real cases.
+
+Summary of Findings:
+This email exhibits multiple phishing indicators — spoofed sender, fake link, urgency, and poor grammar.
+It’s designed to trick users into clicking a fake link and entering login credentials.
+
+Conclusion:
+This is a clear example of a phishing attempt aiming to steal account information.
+
+Outcome:
+Awareness of phishing red flags and improved email threat analysis skills.

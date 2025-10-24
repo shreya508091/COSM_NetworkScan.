@@ -1,0 +1,12 @@
+From: Account Security <support@paypai.com>
+To: user@example.com
+Subject: Urgent: Verify Your Account Immediately!
+
+Dear Customer,
+
+We noticed unusual activity in your account. Please verify your account information immediately to avoid suspension.
+
+Click here to verify: http://paypai.com-securelogin-verification.com
+
+Thank you,
+PayPal Security Team
